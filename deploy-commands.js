@@ -1,4 +1,5 @@
 // This file is used to register and update the slash commands
+// Run this seperately from the application everytime a new command is added
 const { REST, Routes } = require('discord.js');
 const { clientId, guildId, token } = require('./config.json');
 const fs = require('node:fs');
